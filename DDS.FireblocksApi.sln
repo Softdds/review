@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FE0AE5E9-8CD4-4B8B-B3FE-095A21440B53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apps", "apps", "{95D2BD9C-8586-4047-B685-C5F8F6C2F9C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDS.FireblocksApi", "src\DDS.FireblocksApi\DDS.FireblocksApi.csproj", "{D02E701D-9295-4E26-B14B-CEEB5721DDB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDS.Fireblocks.WebApi", "src\apps\DDS.Fireblocks.WebApi\DDS.Fireblocks.WebApi.csproj", "{052D342B-F063-45F8-81E6-06487C2B28A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D02E701D-9295-4E26-B14B-CEEB5721DDB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D02E701D-9295-4E26-B14B-CEEB5721DDB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D02E701D-9295-4E26-B14B-CEEB5721DDB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D02E701D-9295-4E26-B14B-CEEB5721DDB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{052D342B-F063-45F8-81E6-06487C2B28A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{052D342B-F063-45F8-81E6-06487C2B28A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{052D342B-F063-45F8-81E6-06487C2B28A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{052D342B-F063-45F8-81E6-06487C2B28A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{95D2BD9C-8586-4047-B685-C5F8F6C2F9C8} = {FE0AE5E9-8CD4-4B8B-B3FE-095A21440B53}
+		{D02E701D-9295-4E26-B14B-CEEB5721DDB6} = {FE0AE5E9-8CD4-4B8B-B3FE-095A21440B53}
+		{052D342B-F063-45F8-81E6-06487C2B28A7} = {95D2BD9C-8586-4047-B685-C5F8F6C2F9C8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CD165F3-ADBE-4475-9481-ACEBC346626A}
+	EndGlobalSection
+EndGlobal
